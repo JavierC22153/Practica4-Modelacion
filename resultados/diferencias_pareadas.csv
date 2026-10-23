@@ -1,0 +1,4 @@
+Escenario,Pedidos recibidos,Entregas puntuales,% puntuales,Espera media (min),Solicitud → entrega (min),Utilización de vehículos (%),Tiempo adicional (min),Cola máxima
+Normal,+0.0 ± 0.0,+12.0 ± 2.0,+37.3 ± 4.8,-11.1 ± 3.7,-32.9 ± 4.0,-13.2 ± 1.7,-58.5 ± 15.1,-2.1 ± 0.5
+Semana Santa,+0.0 ± 0.0,+26.2 ± 3.7,+54.6 ± 7.8,-63.8 ± 9.7,-85.5 ± 10.0,-6.2 ± 1.6,-171.4 ± 19.4,-8.0 ± 1.2
+Navidad,+0.0 ± 0.0,+9.3 ± 1.4,+11.8 ± 2.0,-150.1 ± 9.8,-172.0 ± 10.2,-0.0 ± 0.7,-349.6 ± 20.6,-12.6 ± 0.8

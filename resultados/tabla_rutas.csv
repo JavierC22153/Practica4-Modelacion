@@ -1,0 +1,17 @@
+Destino,Ruta,Camino de ida,Ida (min),Camino de regreso,Regreso (min),Ida + regreso (min),Δ vs actual (min),Ida ≤ 75 min sin espera,Nota
+N08,Actual (hoja),N01 → N02 → N03 → N04 → N05 → N06 → N07 → N08,59.0,N08 → N07 → N06 → N05 → N04 → N03 → N02 → N01,59.0,118.0,0.0,True,
+N08,Algoritmo (A* ALT),N01 → N09 → N10 → N11 → N13 → N22 → N23 → N07 → N08,51.0,N08 → N07 → N06 → N05 → N04 → N03 → N02 → N01,59.0,110.0,-8.0,True,
+N08,Alternativa 1,N01 → N02 → N03 → N11 → N13 → N22 → N23 → N07 → N08,52.0,N08 → N07 → N06 → N05 → N04 → N03 → N02 → N01,59.0,111.0,-7.0,True,regreso por la ruta más corta (inverso no válido)
+N08,Alternativa 2,N01 → N09 → N10 → N11 → N13 → N22 → N23 → N16 → N08,54.0,N08 → N07 → N06 → N05 → N04 → N03 → N02 → N01,59.0,113.0,-5.0,True,regreso por la ruta más corta (inverso no válido)
+N19,Actual (hoja),N01 → N02 → N03 → N11 → N19,33.0,N19 → N11 → N03 → N02 → N01,33.0,66.0,0.0,True,
+N19,Algoritmo (A* ALT),N01 → N02 → N18 → N19,18.0,N19 → N18 → N10 → N09 → N01,24.0,42.0,-24.0,True,
+N19,Alternativa 1,N01 → N17 → N18 → N19,20.0,N19 → N18 → N10 → N09 → N01,24.0,44.0,-22.0,True,regreso por la ruta más corta (inverso no válido)
+N19,Alternativa 2,N01 → N09 → N10 → N18 → N19,24.0,N19 → N18 → N10 → N09 → N01,24.0,48.0,-18.0,True,regreso por el camino inverso
+N34,Actual (hoja),N01 → N09 → N17 → N25 → N33 → N34,42.0,N34 → N33 → N25 → N17 → N09 → N01,42.0,84.0,0.0,True,
+N34,Algoritmo (A* ALT),N01 → N17 → N26 → N34,24.0,N34 → N26 → N25 → N17 → N09 → N01,34.0,58.0,-26.0,True,
+N34,Alternativa 1,N01 → N02 → N18 → N26 → N34,24.0,N34 → N26 → N25 → N17 → N09 → N01,34.0,58.0,-26.0,True,regreso por la ruta más corta (inverso no válido)
+N34,Alternativa 2,N01 → N17 → N18 → N26 → N34,26.0,N34 → N26 → N25 → N17 → N09 → N01,34.0,60.0,-24.0,True,regreso por la ruta más corta (inverso no válido)
+N40,Actual (hoja),N01 → N02 → N03 → N04 → N05 → N06 → N07 → N08 → N16 → N24 → N32 → N40,93.0,N40 → N32 → N24 → N16 → N08 → N07 → N06 → N05 → N04 → N03 → N02 → N01,93.0,186.0,0.0,False,
+N40,Algoritmo (A* ALT),N01 → N17 → N25 → N27 → N29 → N31 → N32 → N40,47.0,N40 → N32 → N31 → N29 → N27 → N11 → N10 → N09 → N01,61.0,108.0,-78.0,True,
+N40,Alternativa 1,N01 → N17 → N25 → N27 → N29 → N31 → N39 → N40,51.0,N40 → N32 → N31 → N29 → N27 → N11 → N10 → N09 → N01,61.0,112.0,-74.0,True,regreso por la ruta más corta (inverso no válido)
+N40,Alternativa 2,N01 → N09 → N17 → N25 → N27 → N29 → N31 → N32 → N40,54.0,N40 → N32 → N31 → N29 → N27 → N25 → N17 → N09 → N01,63.0,117.0,-69.0,True,regreso por el camino inverso

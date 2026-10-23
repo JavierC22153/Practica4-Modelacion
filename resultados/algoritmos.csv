@@ -1,0 +1,5 @@
+Algoritmo,Consultas,Nodos expandidos / consulta (prom.),Tiempo total (ms),Diferencia máx. de costo vs Dijkstra
+Dijkstra,108,20.796296296296298,2.308991999996124,0.0
+A* con heurística ALT (incluye precálculo),108,5.805555555555555,3.257109000003311,0.0
+Bellman-Ford (relajaciones),108,818.6666666666666,9.438801999976931,0.0
+"Floyd-Warshall (n³ operaciones, una vez)",108,592.5925925925926,2.405247000012878,0.0
